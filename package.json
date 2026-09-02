@@ -1,0 +1,16 @@
+{
+    "name": "campushub-api",
+    "version": "1.0.0",
+    "description": "CampusHub Backend API",
+    "main": "dist/server.js",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "scripts": {
+        "dev": "tsx watch src/server.ts",
+        "typecheck": "tsc --noEmit",
+        "build": "rimraf dist && tsc",
+        "start": "node dist/server.js",
+        "test": "echo \"Error: no test specified\" && exit 0"
+    }
+}
